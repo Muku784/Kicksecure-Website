@@ -379,7 +379,7 @@ font-size: 5em;
 }
 
 #security {
-  background-color: #5b1f1f;
+  background-color: #440237;
   color: white;
 
   padding: 0.25em;
@@ -398,7 +398,7 @@ font-size: 5em;
   justify-content: center;
   padding: 0;
   width: 100%;
-  background-color: #5b1f1f;
+  background-color: #440237;
   color: white;
 }
 .app-display__image {
@@ -413,7 +413,7 @@ font-size: 5em;
   }
 }
 #download {
-  background-color: #5b1f1f;
+  background-color: #440237;
   color: #fff;
   padding: 1em 1em;
 }
