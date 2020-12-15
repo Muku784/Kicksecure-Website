@@ -361,6 +361,7 @@ See the file COPYING for copying conditions.
 
 
     <section id="security" class="features">
+        
         <div class="grid">
             <div class="two-thirds">
                 <h2>Upcoming Security Enhancements</h2>
@@ -368,120 +369,131 @@ See the file COPYING for copying conditions.
         </div>
         <div class="grid">
             <div class="third">
-                <h4>
+                <a ref="/wiki/Linux_Kernel_Runtime_Guard_LKRG" target="_blank" rel="noopener">               
                     <img src="https://www.kicksecure.com/w/images/thumb/a/a7/P_lkrg2.png/800px-P_lkrg2.png" width=349 height=200 alt="LKRG" />
-                    <a class=whitelink href="/wiki/Linux_Kernel_Runtime_Guard_LKRG" target="_blank" rel="noopener">
-                        Linux Kernel Runtime Guard (LKRG)
-                    </a>
-                </h4>
+                    <h4>Linux Kernel Runtime Guard (LKRG)</h4>
+                    <p>
+                        Better encryption thanks to <a href="/wiki/Dev/Entropy" target="_blank" rel="noopener">preinstalled</a> random number generators.
+                    </p>
+                </a>
             </div>
-
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/0/06/Malloc423.jpg" width=305 height=200 alt="Hardened Malloc" />
-                    <a class=whitelink href="/wiki/Hardened_Malloc" target="_blank" rel="noopener">
+                <a href="/wiki/Hardened_Malloc" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/0/06/Malloc423.jpg" width=305 height=200 alt="Hardened Malloc" />
+                        <p>
                         Hardened Malloc is a hardened memory allocator which can be used with many applications to increase security. A fork by Kicksecure will be enabled by default.
-                    </a>
-                </h4>
+                    </p>                   
+                </a>
             </div>
             <div class="third">
-                <h4>
+                <a href="/wiki/Sandbox-app-launcher" target="_blank" rel="noopener">
                     <img src="https://www.kicksecure.com/w/images/6/60/Sandboxing123123.png" width=352 height=200 alt="Sandboxed Application Launcher" />
-                    <a class=whitelink href="/wiki/Sandbox-app-launcher" target="_blank" rel="noopener">
-                        sandbox-app-launcher is an application launcher that can start each app inside its own restrictive sandbox. It runs each app as its own user, in a bubblewrap sandbox and confined by AppArmor.
+                    <h4>Sandbox-app-launcher</h4>
+                    <p>
+                        An application launcher that starts each app inside its own restrictive sandbox as its own user and confined by AppArmor.
+                    </p>
+                </a>
+            </div>
+            <div class="third">
+                    <a href="https://github.com/Kicksecure/apparmor-profile-everything" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/7/79/Mandatoryaccesscontrol.jpg/800px-Mandatoryaccesscontrol.jpg" width=352 height=200 alt="" />
+<h4>
+    Full system Mandatory Access Control
+</h4>
+                        <p>
+                         "AppArmor for everything"
+                    </p>
                     </a>
-                </h4>
             </div>
 
-            <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/7/79/Mandatoryaccesscontrol.jpg/800px-Mandatoryaccesscontrol.jpg" width=352 height=200 alt="" />
-                    <a class=whitelink href="https://github.com/Kicksecure/apparmor-profile-everything" target="_blank" rel="noopener">
-                        Full system Mandatory Access Control (MAC) policy - "AppArmor for everything"
-                    </a>
-                </h4>
-            </div>
-
 
             <div class="third">
-                <h4>
+                <a href="https://forums.kicksecure.com/t/untrusted-root-does-it-make-sense-to-try-to-improve-security-by-restricting-root/7998" target="_blank" rel="noopener">
                     <img src="https://www.kicksecure.com/w/images/thumb/5/53/Untrustedrootaccess.jpg/800px-Untrustedrootaccess.jpg" width=300 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/untrusted-root-does-it-make-sense-to-try-to-improve-security-by-restricting-root/7998" target="_blank" rel="noopener">
+
+                <h4>
                         Untrusted Root User
-                    </a>
                 </h4>
+            </a>
+
             </div>
 
             <div class="third">
-                <h4>
+                <a href="https://forums.kicksecure.com/t/allow-loading-signed-kernel-modules-by-default-disallow-kernel-module-loading-by-default/7880" target="_blank" rel="noopener">
                     <img src="https://www.kicksecure.com/w/images/thumb/e/e1/Verifykernel.png/411px-Verifykernel.png" width=137 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/allow-loading-signed-kernel-modules-by-default-disallow-kernel-module-loading-by-default/7880" target="_blank" rel="noopener">
-                        enforce kernel module software signature verification
-                    </a>
-                </h4>
+
+                <p>
+                       Enforce kernel module software signature verification.
+                </p>
+            </a>
+
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/d/da/Text_x_patch.png" width=200 height=200 alt="" />
-                    <a class=whitelink href="/wiki/Dev/VirusForget" target="_blank" rel="noopener">
-                        deactivate malware after reboot from non-root compromise
+                    <a href="/wiki/Dev/VirusForget" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/d/da/Text_x_patch.png" width=200 height=200 alt="" />
+
+                        <p>Deactivate malware after reboot from non-root compromise.</p>
                     </a>
-                </h4>
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/6/6d/Hardenkernel.jpg/800px-Hardenkernel.jpg" alt="" />
-                    <a class=whitelink href="https://github.com/Kicksecure/hardened-kernel" target="_blank" rel="noopener">
+                    <a href="https://github.com/Kicksecure/hardened-kernel" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/6/6d/Hardenkernel.jpg/800px-Hardenkernel.jpg" alt="" />
+                        <h4>
+
                         Hardened Linux Kernel
+                    </h4>
+
                     </a>
-                </h4>
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/9/90/Postquantum.jpg/800px-Postquantum.jpg" width=267 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/use-codecrypt-to-sign-whonix-releases/7844/2" target="_blank" rel="noopener">
-                        post-quantum cryptography resistant signing of releases
+                    <a href="https://forums.kicksecure.com/t/use-codecrypt-to-sign-whonix-releases/7844/2" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/9/90/Postquantum.jpg/800px-Postquantum.jpg" width=267 height=200 alt="" />
+
+                     <p>   Post-quantum cryptography resistant signing of releases</p>
                     </a>
-                </h4>
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/7/7b/Mountoptions.jpg/800px-Mountoptions.jpg" width=300 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/re-mount-home-and-other-with-noexec-and-nosuid-among-other-useful-mount-options-for-better-security/7707" target="_blank" rel="noopener">
-                        Mount Options Hardening
+               
+                    <a href="https://forums.kicksecure.com/t/re-mount-home-and-other-with-noexec-and-nosuid-among-other-useful-mount-options-for-better-security/7707" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/7/7b/Mountoptions.jpg/800px-Mountoptions.jpg" width=300 height=200 alt="" />
+
+                        <h4>  Mount Options Hardening</h4>
                     </a>
-                </h4>
+                
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/e/ed/Disablesuidbinary.jpg/800px-Disablesuidbinary.jpg" width=284 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/disable-suid-binaries/7706" target="_blank" rel="noopener">
-                        Disable SUID Binaries
+                    <a href="https://forums.kicksecure.com/t/disable-suid-binaries/7706" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/e/ed/Disablesuidbinary.jpg/800px-Disablesuidbinary.jpg" width=284 height=200 alt="" />
+
+                        <h4>
+                            Disable SUID Binaries                </h4>
+
                     </a>
-                </h4>
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/thumb/7/7c/Multipleboot.jpg/800px-Multipleboot.jpg" width=300 height=200 alt="" />
-                    <a class=whitelink href="https://forums.kicksecure.com/t/multiple-boot-modes-for-better-security-persistent-root-persistent-noroot-live-root-live-noroot/7708" target="_blank" rel="noopener">
-                        multiple boot modes for better security (user, live, secureadmin, superadmin)
+                    <a href="https://forums.kicksecure.com/t/multiple-boot-modes-for-better-security-persistent-root-persistent-noroot-live-root-live-noroot/7708" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/thumb/7/7c/Multipleboot.jpg/800px-Multipleboot.jpg" width=300 height=200 alt="" />
+<p>
+                        Multiple boot modes for better security (user, live, secureadmin, superadmin).
+                    </p>
                     </a>
-                </h4>
             </div>
 
             <div class="third">
-                <h4>
-                    <img src="https://www.kicksecure.com/w/images/0/07/Computer_n_screen.png" width=193 height=200 alt="" />
-                    <a class=whitelink href="/wiki/Contribute" target="_blank" rel="noopener">
-                        Help welcome!
+                    <a href="/wiki/Contribute" target="_blank" rel="noopener">
+                        <img src="https://www.kicksecure.com/w/images/0/07/Computer_n_screen.png" width=193 height=200 alt="" />
+
+                        <h4>
+                            Help welcomed!
+                        </h4>
+
                     </a>
-                </h4>
             </div>
 
         </div>
